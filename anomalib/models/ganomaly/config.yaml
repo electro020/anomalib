@@ -1,12 +1,12 @@
 dataset:
   name: Custom_Dataset
   format: folder
-  path: 
-  normal_dir: /home/ens/AP69690/GANomaly/anomalib/Geordi-Database/Custom_Dataset/normal # name of the folder containing normal images.
-  abnormal_dir: /home/ens/AP69690/GANomaly/anomalib/Geordi-Database/Custom_Dataset/abnormal # name of the folder containing abnormal images.
+  path: /home/ens/AP69690/GANomaly/anomalib/Geordi-Database/Custom_Dataset
+  normal_dir: normal # name of the folder containing normal images.
+  abnormal_dir: abnormal # name of the folder containing abnormal images.
   normal_test_dir: null # name of the folder containing normal test images.
   task: segmentation # classification or segmentation
-  mask: <path/to/mask/annotations> #optional
+  mask: null #optional
   extensions: null
   split_ratio: 0.2 # ratio of the normal images that will be used to create a test split
   image_size: 128
