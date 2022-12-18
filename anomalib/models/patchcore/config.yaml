@@ -60,8 +60,8 @@ project:
   path: ./results
 
 logging:
-  logger: [] # options: [comet, tensorboard, wandb, csv] or combinations.
-  log_graph: false # Logs the model graph to respective logger.
+  logger: [csv] # options: [comet, tensorboard, wandb, csv] or combinations.
+  log_graph: true # Logs the model graph to respective logger.
 
 optimization:
   export_mode: null # options: onnx, openvino
