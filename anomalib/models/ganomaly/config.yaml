@@ -1,7 +1,7 @@
 dataset:
   name: Custom_Dataset
   format: folder
-  path: /home/ens/AP69690/GANomaly/anomalib/Geordi-Database/Custom_Dataset
+  path: home/content/anomalib/Geordi-Database/Custom_Dataset
   normal_dir: Normal # name of the folder containing normal images.
   abnormal_dir: Abnormal # name of the folder containing abnormal images.
   normal_test_dir: null # name of the folder containing normal test images.
@@ -47,6 +47,7 @@ metrics:
   image:
     - F1Score
     - AUROC
+    
   threshold:
     method: adaptive #options: [adaptive, manual]
     manual_image: null
@@ -63,8 +64,8 @@ project:
   path: ./results
 
 logging:
-  logger: [] # options: [comet, tensorboard, wandb, csv] or combinations.
-  log_graph: false # Logs the model graph to respective logger.
+  logger: [csv] # options: [comet, tensorboard, wandb, csv] or combinations.
+  log_graph: true # Logs the model graph to respective logger.
 
 optimization:
   export_mode: null
