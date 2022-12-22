@@ -47,6 +47,9 @@ metrics:
   image:
     - F1Score
     - AUROC
+    - Precision
+    - Recall
+    - Accuracy
     
   threshold:
     method: adaptive #options: [adaptive, manual]
