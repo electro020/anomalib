@@ -40,6 +40,9 @@ metrics:
   image:
     - F1Score
     - AUROC
+    - Precision
+    - Recall
+    - Accuracy
   pixel:
     - F1Score
     - AUROC
