@@ -2,7 +2,7 @@
 datasets
 !anomalib/datasets
 !tests/pre_merge/datasets
-results
+
 !anomalib/core/results
 
 backup.py
