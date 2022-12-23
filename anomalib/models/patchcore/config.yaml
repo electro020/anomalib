@@ -1,9 +1,9 @@
 dataset:
-  name: ano_2_augmentation
+  name: ano_1_augmentation
   #name: Custom_Dataset
   format: folder
-  path: /content/anomalib/Geordi-Database/Custom_Dataset/ano_2_augmentation
-  #path: /home/ens/AP69690/GANomaly/anomalib/Geordi-Database/Custom_Dataset/ano_2_augmentation
+  #path: /content/anomalib/Geordi-Database/Custom_Dataset/ano_2_augmentation
+  path: /home/ens/AP69690/GANomaly/anomalib/Geordi-Database/Custom_Dataset/ano_2_augmentation
   #path: /home/ens/AP69690/GANomaly/anomalib/Geordi-Database/Custom_Dataset
   normal_dir: Normal # name of the folder containing normal images.
   abnormal_dir: Abnormal # name of the folder containing abnormal images.
